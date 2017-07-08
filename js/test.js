@@ -7,6 +7,7 @@ alert(str);
 var ar = [1, 2.1, 'abc', true, null, {name:'bob', age:'19'}];
 ar[6] = '黄飞鸿';
 alert(`array is ${ar.slice(3)}.`);
+alert(`name: ${ar[5].name}, age: ${ar[5].age}`);
 
 var copy_ar = ar.slice();
 copy_ar.sort()
