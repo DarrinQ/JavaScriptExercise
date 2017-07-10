@@ -19,5 +19,9 @@ function sum (x, y, ...arg)
 	return x + y;
 }
 
-var z = sum(5, 8, 10, 20, 30);
-console.log(z);
+//var z = sum(5, 8, 10, 20, 30);
+//console.log(z);
+
+var s = "12345";
+var ar = s.split('');
+console.log(ar);
